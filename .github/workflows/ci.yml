@@ -19,7 +19,7 @@ jobs:
       fail-fast: false
       matrix:
         config: [Debug, Release, dx7, dx8]
-        platform: [Win32]
+        platform: [x64]
 
     steps:
     - uses: actions/checkout@v3
